@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+
+header{
+    padding: 30px;
+    background-color: rgb(30, 103, 162);
+    color: white;
+    font-size: 40px;
+}
+
+.task_section{
+    margin: 30px;
+    text-align: left;
+}
+
+.button_task{
+    background-color: rgb(228, 228, 73);
+    border: 1px solid black;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+
+.button_task:hover{
+    background-color: white;
+   color: black;
+}
+
+.task_elements{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.task_elements *{
+    border-radius: 20px;
+    width: 30vw;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.task_elements button{
+    width: 15vw;
+    background-color: white;
+}
+
+
+.task_elements button:hover{
+    background-color: rgb(228, 228, 73);
+    border: none;
+}
+
+.task_list{
+    margin: 40px 40px 0px 20px !important;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: black;
+    width: 30vw;
+}
+
+.task_list *{
+    padding: 10px;
+}
+
+.task_list p{
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word; 
+}
+
+.task_list button{
+
+    border: none;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    background-color: red;
+    color: white;
+}
+
+.task_list button:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+}
